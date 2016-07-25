@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "nico play all",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "add to play-list all of videos without already wached",
+    "description": "The description of the application"
+  }
+}
