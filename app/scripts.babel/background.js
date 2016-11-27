@@ -27,5 +27,4 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   chrome.history.getVisits({url: request.url}, visits => {
     sendResponse({visited: visits.length > 0});
   });
-  return true;
 });
